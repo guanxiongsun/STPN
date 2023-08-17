@@ -1,26 +1,14 @@
-# ECCV2022: efficient one-stage video object detection
+# Spatio-temporal Prompting Network for Robust Video Feature Extraction
 
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
 
 By [Guanxiong Sun](https://sunguanxiong.github.io).
 
-This repo is an official implementation of "TDViT: Temporal Dilated Video Transformer for Dense Video Tasks", submitted to CVPR 2022 (under reviewing). This repository contains a PyTorch implementation of our approach TDViT based on [mmdetection](https://github.com/open-mmlab/mmdetection).
+This repo is an official implementation of "Spatio-temporal Prompting Network for Robust Video Feature Extraction", accepted in ICCV 2023. This repository contains a PyTorch implementation of STPN based on [mmdetection](https://github.com/open-mmlab/mmdetection).
 
-This is based on two open-source repo: [mmdetection](https://github.com/open-mmlab/mmdetection/tree/v2.16.0).
-and [mmtracking](https://github.com/open-mmlab/mmtracking).
-Specifically, the mmdetection repo is designed for still-image object detection.
-In order to tackle video object detection, we borrow the data wrapper and evaluation code in the mmtracking repo.
 
 ## Main Results
-
-Pretrained models are now available at [Baidu](https://pan.baidu.com/s/1qjIAD3ohaJO8EF1mZ4nLEg) (code: neck) and Google Drive.
-
-|       Model        |  Backbone  | AP50 | AP (fast) | AP (med) | AP (slow) |                                             Link                                             |
-| :----------------: | :--------: | :--: | :-------: | :------: | :-------: | :------------------------------------------------------------------------------------------: |
-|     FasterRCNN     | ResNet-101 | 76.7 |   52.3    |   74.1   |   84.9    | [Google](https://drive.google.com/file/d/1W17f9GC60rHU47lUeOEfU--Ra-LTw3Tq/view?usp=sharing) |
-|     FasterRCNN     |   Swin-T   |  xx  |    xx     |    xx    |    xxx    | [Google](https://drive.google.com/file/d/1W17f9GC60rHU47lUeOEfU--Ra-LTw3Tq/view?usp=sharing) |
-|     FasterRCNN     |  TDViT-T   |  xx  |    xx     |    xx    |    xx     | [Google](https://drive.google.com/file/d/1ZnAdFafF1vW9Lnpw-RPF1AD_csw61lBY/view?usp=sharing) |
-| **TDViT_proposal** |  TDViT-T   |  xx  |     -     |    -     |     -     |                                          model url                                           |
+                                          |
 
 ## Installation
 
